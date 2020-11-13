@@ -1,0 +1,119 @@
+.header_work {
+    width: 100%;
+    overflow: hidden;
+    img {
+        width: 100%;
+    }
+}
+.__works {
+    width: 100%;
+    min-height: 400px;
+    position: relative;
+    margin-top: 6rem;
+    overflow: hidden;
+    .work_img {
+        width: 100%;
+        position: relative;
+        img {
+            width: 100%;
+        }
+    }
+    .work_tt {
+        width: 100%;
+        margin-top: 4rem;
+        text-align: right;
+        h1 {
+            color: gray;
+            font-weight: 900;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 17px;
+            line-height: 1.8;
+            color: gray;
+        }
+    }
+}
+.work_bottom {
+    width: 100%;
+    min-height: 400px;
+    position: relative;
+    margin: 1rem 0 4rem 0;
+    overflow: hidden;
+    .work_box {
+        width: 31%;
+        display: inline-block;
+        margin: auto;
+        position: relative;
+        .box_hover {
+            background: rgba(255, 255, 255, 0.72);
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            overflow: hidden;
+            transition: .5s;
+            margin: auto;
+            vertical-align: middle;
+            transform: scale(0);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            border: 1px solid #f1efef;
+            border-radius: 10px;
+            z-index: 3;
+            cursor: zoom-in;
+            .w_btn {
+                background: #f0542d;
+                color: white;
+                text-align: center;
+                display: block;
+                font-size: 19px;
+                padding: .5rem 4rem;
+            }
+        }
+        img {
+            width: 100%;
+            position: relative;
+            z-index: 2;
+            display: block;
+            border: 2px solid #ececec;
+        }
+    }
+    .work_box:hover .box_hover {
+        width: 90%;
+        height: 90%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        transform: scale(1);
+    }
+}
+@media(max-width: 778px) {
+    .__works {
+        margin-top: 0;
+    }
+    .__works .work_tt {
+        margin-top: 1rem;
+    }
+    .work_bottom {
+        margin-top: 2rem;
+    }
+    .work_bottom .work_box {
+        width: 49%;
+    }
+}
+@media(max-width: 576px) {
+    .work_bottom .work_box {
+        width: 90%;
+        display: block;
+        margin-bottom: .5rem;
+    }
+    .work_bottom .work_box img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,44 @@
+.contact_header {
+    width: 100%;
+    overflow: hidden;
+    img {
+        width: 100%;
+    }
+}
+
+/*----------------------------
+    contact_section style
+-----------------------------*/
+
+#contact_section {
+    direction: ltr;
+    padding: 6rem 0;
+    overflow: hidden;
+    .con_form {
+        direction: rtl;
+        h1 {
+            font-size: 40px;
+            color: #f0542d;
+            font-weight: 900;
+            margin-bottom: 1rem;
+            text-align: right;
+        }
+        textarea {
+            border-radius: 0;
+            box-shadow: none;
+            font-size: 14px;
+        }
+        button[type="submit"] {
+            background: #f0542d;
+            border: 0;
+            border-radius: 20px;
+            padding: 6px 30px;
+            font-size: 17px;
+            color: #fff;
+            transition: 0.3s;
+            &:hover {
+                padding: 6px 40px;
+            }
+        }
+    }
+}

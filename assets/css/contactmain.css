@@ -1,0 +1,45 @@
+.contact_header {
+  width: 100%;
+  overflow: hidden;
+}
+.contact_header img {
+  width: 100%;
+}
+
+/*----------------------------
+    contact_section style
+-----------------------------*/
+#contact_section {
+  direction: ltr;
+  padding: 6rem 0;
+  overflow: hidden;
+}
+#contact_section .con_form {
+  direction: rtl;
+}
+#contact_section .con_form h1 {
+  font-size: 40px;
+  color: #f0542d;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  text-align: right;
+}
+#contact_section .con_form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+#contact_section .con_form button[type=submit] {
+  background: #f0542d;
+  border: 0;
+  border-radius: 20px;
+  padding: 6px 30px;
+  font-size: 17px;
+  color: #fff;
+  transition: 0.3s;
+}
+#contact_section .con_form button[type=submit]:hover {
+  padding: 6px 40px;
+}
+
+/*# sourceMappingURL=contactmain.css.map */
