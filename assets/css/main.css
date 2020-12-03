@@ -293,12 +293,15 @@
   min-height: 400px;
   position: relative;
   margin: 1rem 0 4rem 0;
+  text-align: center;
   overflow: hidden;
 }
 .work_bottom .work_box {
-  width: 31%;
+  width: 32%;
+  margin-left: 0.4rem;
+  margin-bottom: 0.2rem;
+  text-align: center;
   display: inline-block;
-  margin: auto;
   position: relative;
 }
 .work_bottom .work_box .box_hover {
@@ -348,6 +351,11 @@
   transform: scale(1);
 }
 
+@media (max-width: 999px) {
+  .work_bottom .work_box .box_hover .w_btn {
+    padding: 0.5rem 1rem;
+  }
+}
 @media (max-width: 778px) {
   .__works {
     margin-top: 0;
@@ -362,7 +370,7 @@
   }
 
   .work_bottom .work_box {
-    width: 49%;
+    width: 48%;
   }
 }
 @media (max-width: 576px) {
@@ -489,7 +497,6 @@ ul {
   left: 0;
   right: 0;
   margin: auto;
-  cursor: pointer;
   transform: rotate(50deg);
 }
 .toggle span:last-child {
