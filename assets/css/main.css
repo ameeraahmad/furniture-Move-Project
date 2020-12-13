@@ -202,6 +202,16 @@
   color: #dadee2;
 }
 
+@media (max-width: 767px) {
+  .services_section h1 {
+    padding-right: 2rem;
+    text-align: right;
+  }
+
+  .services_section .serv_box {
+    padding-right: 2rem;
+  }
+}
 /*---------------------
     services style
 -----------------------*/
@@ -382,6 +392,10 @@
   }
 }
 @media (max-width: 576px) {
+  .header_work {
+    margin-bottom: 2rem;
+  }
+
   .work_bottom .work_box {
     width: 90%;
     display: block;

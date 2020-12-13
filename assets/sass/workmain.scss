@@ -121,6 +121,9 @@
     }
 }
 @media(max-width: 576px) {
+    .header_work {
+        margin-bottom: 2rem;
+    }
     .work_bottom .work_box {
         width: 90%;
         display: block;
