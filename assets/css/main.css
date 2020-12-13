@@ -163,6 +163,11 @@
   width: 100%;
 }
 
+@media (max-width: 999px) {
+  .service_header {
+    height: auto;
+  }
+}
 /*-----------------------------
     services_section style
 -------------------------------*/
@@ -274,7 +279,6 @@
 }
 .__works .work_tt {
   width: 100%;
-  margin-top: 4rem;
   text-align: right;
 }
 .__works .work_tt h1 {
@@ -352,6 +356,10 @@
 }
 
 @media (max-width: 999px) {
+  .header_work {
+    height: auto;
+  }
+
   .work_bottom .work_box .box_hover .w_btn {
     padding: 0.5rem 1rem;
   }
